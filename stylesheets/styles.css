@@ -103,6 +103,7 @@ header {
 header h1{
   background:url(../img/lady.png) no-repeat left;
   padding-left:50px;
+  line-height:100px;
 }
 header ul {
   list-style:none;

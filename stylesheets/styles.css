@@ -96,14 +96,16 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
-  position:fixed;
+  width:35%;
+  min-width:270px;
+  float:right;
+  position:relative;
 }
 header h1{
-  background:url(../img/lady.png) no-repeat left;
-  padding-left:50px;
+  background:url(../img/lady.png) no-repeat right;
+  padding-right:50px;
   line-height:100px;
+  text-align:right;
 }
 header ul {
   list-style:none;
@@ -164,8 +166,8 @@ header ul a strong {
 }
 
 section {
-  width:500px;
-  float:right;
+  width:65%;
+  float:left;
   padding-bottom:50px;
 }
 

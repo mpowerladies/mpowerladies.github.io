@@ -100,7 +100,10 @@ header {
   float:left;
   position:fixed;
 }
-
+header h1{
+  background:url(../img/lady.png) no-repeat left;
+  padding-left:50px;
+}
 header ul {
   list-style:none;
   height:40px;

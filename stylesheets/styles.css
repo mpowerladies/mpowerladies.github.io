@@ -253,3 +253,50 @@ footer {
     color:#444;
   }
 }
+
+/* social icons */
+
+@font-face {
+    font-family: "Mono Social Icons Font";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/MonoSocialIconsFont-1.10.ttf") format("truetype");
+}
+.symbol, a.symbol:before {
+    font-family: "Mono Social Icons Font";
+    font-size: 50px;
+    text-decoration: none;
+    text-rendering: optimizelegibility;
+}
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+}
+.symbol {
+}
+.symbol:hover {
+    font-size: 55px;
+}
+.facebook .symbol {
+    color: #3b5998;
+}
+.twitter .symbol {
+    color: #55acee;
+}
+.google .symbol {
+    color: #d14836;
+}
+.github .symbol {
+    color: #333;
+}
+.email .symbol {
+    color: #a40000;
+}
+ul.social-icons {
+    list-style: outside none none;
+}
+ul.social-icons li {
+    float: left;
+    text-align: center;
+    width: 65px;
+}
